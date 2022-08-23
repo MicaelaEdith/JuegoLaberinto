@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1661252240 source:c:\users\micaela\documents\programación\c++\jlaberinto\main.cpp
+	<iostream>
+	"Jugador.h"
+	"celdaMapa.h"
+	"mapaJuego.h"
+
+1661246305 c:\users\micaela\documents\programación\c++\jlaberinto\include\jugador.h
+
+1661246305 source:c:\users\micaela\documents\programación\c++\jlaberinto\src\jugador.cpp
+	"Jugador.h"
+	<iostream>
+
+1661250857 source:c:\users\micaela\documents\programación\c++\jlaberinto\src\celdamapa.cpp
+	"celdaMapa.h"
+
+1661246305 c:\users\micaela\documents\programación\c++\jlaberinto\include\celdamapa.h
+
+1661253085 c:\users\micaela\documents\programación\c++\jlaberinto\include\mapajuego.h
+	<celdaMapa.h>
+
+1661253085 source:c:\users\micaela\documents\programación\c++\jlaberinto\src\mapajuego.cpp
+	"mapaJuego.h"
+	"Jugador.h"
+	<iostream>
+	<fstream>
+

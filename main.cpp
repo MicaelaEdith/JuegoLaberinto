@@ -8,21 +8,25 @@ using namespace std;
 int main()
 {
 
- bool gameOver=false;
+
  mapaJuego Mapa;
  Jugador Heroe;
+ Mapa.dibujarBienvenida();
+ Mapa.dibujar();
+    cout<<"Presiona D y ENTER para iniciar el juego. Mueve con 'a','s','d','w' y ENTER.";
 
- cout << "Inicio del juego" <<endl;
 
- while(!gameOver)
+ while(!Mapa.gameOver)
  {
     Heroe.traerDato();
 
-    Mapa.setJugadorCel(Heroe.x,Heroe.y);
-
-    Mapa.dibujar();
-
+    if(Mapa.setJugadorCel(Heroe.x,Heroe.y)&&!Mapa.tesoro)
+        Mapa.dibujar();
+    else if (!Mapa.tesoro)
+                {
+                Heroe.volverAtras();
+                    Mapa.dibujar();
+                }
  }
-cout <<"game over" << endl;
- return 0;
+    return 0;
 }

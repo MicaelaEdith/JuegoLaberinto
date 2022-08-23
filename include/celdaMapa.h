@@ -6,7 +6,9 @@ class celdaMapa
 {
     public:
         celdaMapa();
-    int id;
+    char id;
+
+    bool bloqueado();
 
     protected:
 

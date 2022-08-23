@@ -9,14 +9,19 @@ class mapaJuego
         mapaJuego();
 
         celdaMapa* jugadorCelda;
-        celdaMapa celdas[75][30];
+        celdaMapa celdas[10][15];
+
+    void dibujarBienvenida();
+
+    void dibujarTesoro();
 
     void dibujar();
 
-    void setJugadorCel(int jugadorX, int jugadorY);
+    bool setJugadorCel(int jugadorX, int jugadorY);
 
+    bool gameOver=false;
 
-
+    bool tesoro=false;
 
     protected:
 

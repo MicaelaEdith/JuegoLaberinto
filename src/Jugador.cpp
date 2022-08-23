@@ -17,23 +17,28 @@ void Jugador::traerDato()
 
     switch(entradaUsuario)
     { case 'w':
-        x--;
-        cout<<"w"<<endl;
+            xAnterior=x;
+            x--;
         break;
       case 's':
-          x++;
-          cout<<"s"<<endl;
+            xAnterior=x;
+            x++;
         break;
       case 'a':
-          y--;
-          cout<<"a"<<endl;
+            yAnterior=y;
+            y--;
         break;
       case 'd':
-          y++;
-          cout<<"d"<<endl;
+            yAnterior=y;
+            y++;
         break;
       default: //gameOver=true;
         break;
     }
-//cout << "cordenadas x:" << x <<", y:" <<y<<endl;
+}
+
+void Jugador::volverAtras()
+{
+    x=xAnterior;
+    y=yAnterior;
 }

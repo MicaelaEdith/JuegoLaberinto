@@ -2,6 +2,13 @@
 
 celdaMapa::celdaMapa()
 {
-    id=0;
+    id=1;
 }
 
+bool celdaMapa::bloqueado()
+{
+    if(id=='|')
+        return true;
+    else
+        return false;
+}
