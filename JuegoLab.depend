@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1661095554 source:c:\users\micaela\documents\programación\c++\juegolab\main.cpp
+	<iostream>
+	"Jugador.h"
+
+1661096433 source:c:\users\micaela\documents\programación\c++\juegolab\src\jugador.cpp
+	"Jugador.h"
+	<iostream>
+
+1661095856 c:\users\micaela\documents\programación\c++\juegolab\include\jugador.h
+
+1661180033 source:c:\users\micka\onedrive\documentos\programacion\c++\juegolab\main.cpp
+	<iostream>
+	"Jugador.h"
+	"celdaMapa.h"
+	"mapaJuego.h"
+
+1661180033 c:\users\micka\onedrive\documentos\programacion\c++\juegolab\include\jugador.h
+
+1661096600 c:\users\micka\onedrive\documentos\programacion\c++\juegolab\include\celdamapa.h
+
+1661096600 source:c:\users\micka\onedrive\documentos\programacion\c++\juegolab\src\celdamapa.cpp
+	"celdaMapa.h"
+
+1661180961 source:c:\users\micka\onedrive\documentos\programacion\c++\juegolab\src\jugador.cpp
+	"Jugador.h"
+	<iostream>
+
+1661183561 c:\users\micka\onedrive\documentos\programacion\c++\juegolab\include\mapajuego.h
+	<celdaMapa.h>
+
+1661183560 source:c:\users\micka\onedrive\documentos\programacion\c++\juegolab\src\mapajuego.cpp
+	"mapaJuego.h"
+	<iostream>
+	<fstream>
+
