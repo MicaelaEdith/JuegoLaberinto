@@ -25,3 +25,23 @@
 	<iostream>
 	<fstream>
 
+1661253256 source:c:\users\micka\downloads\juegolaberinto\main.cpp
+	<iostream>
+	"Jugador.h"
+	"celdaMapa.h"
+	"mapaJuego.h"
+
+1661246306 c:\users\micka\downloads\juegolaberinto\include\jugador.h
+
+1661246306 c:\users\micka\downloads\juegolaberinto\include\celdamapa.h
+
+1661440479 c:\users\micka\downloads\juegolaberinto\include\mapajuego.h
+	<celdaMapa.h>
+
+1661250858 source:c:\users\micka\downloads\juegolaberinto\src\celdamapa.cpp
+	"celdaMapa.h"
+
+1661246306 source:c:\users\micka\downloads\juegolaberinto\src\jugador.cpp
+	"Jugador.h"
+	<iostream>
+

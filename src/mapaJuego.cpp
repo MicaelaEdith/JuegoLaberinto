@@ -15,9 +15,9 @@ mapaJuego::mapaJuego()
 
 void mapaJuego::dibujar()
 {
-    for(int i =0;i<10;i++)
+    for(int i =0;i<15;i++)
     {
-        for(int j =0;j<15;j++)
+        for(int j =0;j<60;j++)
            {
             cout  <<celdas [i][j].id;
            }

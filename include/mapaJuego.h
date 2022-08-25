@@ -9,7 +9,7 @@ class mapaJuego
         mapaJuego();
 
         celdaMapa* jugadorCelda;
-        celdaMapa celdas[10][15];
+        celdaMapa celdas[15][60];
 
     void dibujarBienvenida();
 
